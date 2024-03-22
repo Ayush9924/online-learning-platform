@@ -1,0 +1,142 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px; /* Add margin-bottom for small gap */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  body {
+    background-image: url('logo2.png.png'); /* Replace 'path_to_your_image.jpg' with the path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+}
+
+
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif; /* Specify a preferred font */
+  background-color: #f5f5f5; /* Light background color */
+}
+
+/* Container styles */
+.container {
+  width: 400px;
+  margin: 50px auto;
+  border: none; /* Remove border for a cleaner look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 30px; /* Increase padding for better spacing */
+  border-radius: 5px; /* Rounded corners for a softer look */
+}
+
+/* Logo styles (assuming you have a class for it) */
+.logo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-size: contain; /* Adjust background size as needed */
+  margin-bottom: 20px;
+}
+
+/* H1 styles */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Darker text for better contrast */
+  font-size: 24px; /* Increase font size for emphasis */
+}
+
+/* Form styles */
+form {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Label styles */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333; /* Darker text for better contrast */
+  font-weight: bold; /* Bold labels for better readability */
+}
+
+/* Input styles */
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px; /* Rounded corners for a modern look */
+}
+
+input:focus { /* Add subtle outline on focus */
+  outline: 1px solid #04AA6D;
+}
+
+/* Button styles */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px; /* Adjust padding for a balanced look */
+  border: none;
+  border-radius: 5px; /* Consistent rounded corners */
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+button:hover {
+  background-color: #038e5a; /* Darken background on hover */
+}
+
+/* Paragraph styles */
+p {
+  text-align: center;
+  margin-top: 10px; /* Add some space after the form */
+  color: #aaa; /* Lighter text for a subtle hint */
+}
+
+/* Link styles */
+a {
+  color: #04AA6D;
+  text-decoration: underline; /* Add underline for clarity */
+}
